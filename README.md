@@ -59,7 +59,7 @@ Descomprime el archivo. Crea una carpeta llamada WebDriver/bin y guarda el archi
 Luego, ejecuta las pruebas utilizando pytest
 * Al finalizar las pruebas, pytest mostrará un resumen de los resultados en la terminal.
 
-## Funcionalidad de las Pruebas
+## FUNCIONALIDAD DE LAS PRUEBAS
 Las pruebas automatizadas cubren los siguientes pasos del flujo de solicitud de un taxi:
 
 1. Configurar la dirección.
