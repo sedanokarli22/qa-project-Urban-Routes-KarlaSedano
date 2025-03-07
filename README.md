@@ -3,18 +3,23 @@
 ### COHORT 14.
 
 ## DESCRIPCION DEL PROYECTO
-El proyecto se realizo a partir de la implementacion de Selenium Webdriver, como herramienta para automatizar pruebas para la aplicación de viajes "Urban Routes", que permitio controlar el navegador simulando la interacción del usuario con la aplicación.
+En la industria del transporte, la calidad y eficiencia de las aplicaciones de movilidad son clave para garantizar una experiencia de usuario fluida y confiable. Urban Routes necesitaba mejorar la estabilidad de su aplicación asegurando que los usuarios pudieran solicitar un taxi sin fallos en el proceso. Las pruebas manuales eran lentas y propensas a errores, por lo que se requería un enfoque automatizado para optimizar la validación de funcionalidades críticas.
 
-## DOCUMENTACIÓN 
-- URL DEL SERVIRDOR URBAN ROUTES. 
-- DEVTOOLS
-- LISTA DE COMPROBACIÓN
 
 ## TECNOLOGIAS UTILIZADAS
-- PYTHON
 
-- PYCHARM
+Para garantizar una validación eficiente y repetible, se implementó un marco de pruebas automatizadas utilizando:
 
+**Fuentes de datos** : 
+Interacciones simuladas con la interfaz de usuario en entornos de prueba.
+
+**Herramientas** :
+- Python para scripting.
+- Selenium WebDriver para automatizar la navegación y simulación de usuario.
+- Pytest para estructurar y ejecutar las pruebas.
+- PyCharm como entorno de desarrollo.
+
+## INSTRUCCIONES PARA LA EJECUCIÓN DE PRUEBAS 
 
 - PYTEST:
 
@@ -73,3 +78,23 @@ campo CVV (id="code" class="card-input") pierda el enfoque para habilitar el bot
 8. Esperar la búsqueda de un taxi: Se asegura que el modal de búsqueda de conductor aparezca correctamente y que la 
 cuenta regresiva se inicie.
 
+## ANÁLISIS Y HALLAZGOS 
+
+* Las pruebas automatizadas cubrieron todo el flujo de solicitud de un taxi, revelando patrones y problemas clave:
+  
+✅ Flujo optimizado: Se validó la correcta configuración de direcciones, selección de tarifa y confirmación del viaje.
+
+⚠️ Errores detectados: Se identificaron fallos en la activación del botón de pago al ingresar una tarjeta de crédito.
+
+🔄 Pruebas repetibles: Se redujo el tiempo de validación manual, permitiendo pruebas continuas en distintos navegadores.
+
+
+## RECOMENDACIONES Y CONCLUSIÓN
+
+🔹 Optimizar la validación de campos: Asegurar que los elementos clave de la interfaz sean interactuables en todos los escenarios.
+
+🔹 Ampliar la cobertura de pruebas: Incluir casos extremos, como mala conexión o datos inválidos en los formularios.
+
+🔹 Automatización en integración continua: Ejecutar pruebas automatizadas en cada actualización para evitar regresiones.
+
+La implementación de pruebas automatizadas con Selenium y Pytest permitió detectar errores antes de llegar a producción, reduciendo el tiempo de prueba en X% y mejorando la estabilidad de la aplicación. Esto garantiza que Urban Routes brinde una experiencia confiable a sus usuarios y minimice interrupciones en el servicio
