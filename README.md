@@ -2,7 +2,7 @@
 ## SEDANO SANCHEZ KARLA GUADALUPE 
 ### COHORT 14.
 
-## DESCRIPCION DEL PROYECTO
+## DESCRIPCIÓN DEL PROYECTO
 En la industria del transporte, la calidad y eficiencia de las aplicaciones de movilidad son clave para garantizar una experiencia de usuario fluida y confiable. Urban Routes necesitaba mejorar la estabilidad de su aplicación asegurando que los usuarios pudieran solicitar un taxi sin fallos en el proceso. Las pruebas manuales eran lentas y propensas a errores, por lo que se requería un enfoque automatizado para optimizar la validación de funcionalidades críticas.
 
 
@@ -54,7 +54,7 @@ Descomprime el archivo. Crea una carpeta llamada WebDriver/bin y guarda el archi
 - Activa el controlador del navegador. 
 
 
-## EJECUCION DE LAS PRUEBAS 
+## EJECUCIÓN DE LAS PRUEBAS 
 * Para ejecutar las pruebas, asegúrate de tener instalados los paquetes pytest y Selenium. 
    - pip install pytest
    - pip install selenium
